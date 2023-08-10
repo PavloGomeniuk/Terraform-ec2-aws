@@ -18,5 +18,5 @@ Infrastructure as a code for ec2 instance om AWS
 
 # For running
 1. terraform init
-2. terraform plan
-3. terraform apply -auto-approve
+2. terraform plan -out=plan // -target for apply separate module
+3. terraform apply "plan"
